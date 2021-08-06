@@ -58,8 +58,7 @@
 ### 交易outputs
 交易output(TxOut)结构由地址和数量两个成员变量组成。 数量代表了交易的虚拟货币的数量。地址就是一个ECDSA的公钥，代表接收者。意味着只有拥有对应地址的私钥的用户才能访问对应的加密货币。
 
-``` typesript
-
+```typescript
 class TxOut {
     public address: string;
     public amount: number;
